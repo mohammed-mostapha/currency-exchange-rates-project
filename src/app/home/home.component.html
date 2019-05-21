@@ -1,0 +1,9 @@
+<h1>Currency Exchange rates</h1>
+
+<ul *ngIf="rates">
+
+  <li *ngFor="let rate of rates">
+    <p>{{ rate  }} USD</p>
+  </li>
+</ul>
+
